@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lbl_name"
+        android:text="@string/item_name" />
+
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lbl_cost"
+        android:text="@string/item_cost" />
+
+    <EditText
+        android:id="@+id/item_cost"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/lbl_count"
+        android:text="@string/item_count" />
+
+    <EditText
+        android:id="@+id/item_count"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="numberDecimal"
+        android:text="1"/>
+
+    <TextView
+        android:id="@+id/lbl_x"
+        android:text="@string/item_x" />
+
+    <EditText
+        android:id="@+id/item_x"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/lbl_y"
+        android:text="@string/item_y" />
+
+    <EditText
+        android:id="@+id/item_y"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/lbl_z"
+        android:text="@string/item_z" />
+
+    <EditText
+        android:id="@+id/item_z"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/item_double_side"
+        android:layout_columnSpan="2"
+        android:text="@string/item_double_side" />
+
+    <TextView
+        android:id="@+id/lbl_k"
+        android:text="@string/item_k" />
+    <EditText
+        android:id="@+id/item_k"
+        android:layout_gravity="fill_horizontal"
+        android:inputType="number"
+        android:text="1"/>
+
+    <EditText
+        android:id="@+id/item_result_text"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:textColor="#44aa22"/>
+
+    <Button
+        android:id="@+id/btn_copy"
+        android:text="@string/btn_copy"/>
+
+</GridLayout>

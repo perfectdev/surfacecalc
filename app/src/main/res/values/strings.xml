@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Калькулятор поверхности</string>
+    <string name="item_name">Наименование</string>
+    <string name="item_cost">Цена (м²)</string>
+    <string name="item_count">Количество</string>
+    <string name="item_x">Ширина (м)</string>
+    <string name="item_y">Высота (м)</string>
+    <string name="item_z">Глубина (м)</string>
+    <string name="item_double_side">Двусторонняя обработка</string>
+    <string name="item_k">Коэффициент сложности</string>
+    <string name="btn_copy">Копировать</string>
+</resources>
